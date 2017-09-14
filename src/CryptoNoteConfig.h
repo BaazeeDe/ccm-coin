@@ -63,13 +63,13 @@ const size_t   FUSION_TX_MAX_SIZE                            = CRYPTONOTE_BLOCK_
 const size_t   FUSION_TX_MIN_INPUT_COUNT                     = 12;
 const size_t   FUSION_TX_MIN_IN_OUT_COUNT_RATIO              = 4;
 
-const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "blocks.dat";
-const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.dat";
-const char     CRYPTONOTE_BLOCKSCACHE_FILENAME[]             = "blockscache.dat";
-const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bin";
-const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
-const char     CRYPTONOTE_BLOCKCHAIN_INDICES_FILENAME[]      = "blockchainindices.dat";
-const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
+const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "ccm_blocks.dat";
+const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "ccm-blockindexes.dat";
+const char     CRYPTONOTE_BLOCKSCACHE_FILENAME[]             = "ccm-blockscache.dat";
+const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "ccm-poolstate.bin";
+const char     P2P_NET_DATA_FILENAME[]                       = "ccm_p2pstate.bin";
+const char     CRYPTONOTE_BLOCKCHAIN_INDICES_FILENAME[]      = "ccm_blockchainindices.dat";
+const char     MINER_CONFIG_FILE_NAME[]                      = "ccm_miner_conf.json";
 } // parameters
 
 //TODO Put here the name of your currency
